@@ -1,6 +1,6 @@
 package sorting;
 import java.util.Scanner;
-public class binary_search {
+public class Binary_search {
 
 	public static void main(String[] args) {
 		
