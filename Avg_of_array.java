@@ -1,6 +1,6 @@
 package coding;
 import java.util.*;
-public class Avg_of_array {
+public class Sum_Of_Array {
 
 	public static void main(String[] args) {
 		int n,sum=0;
