@@ -43,3 +43,11 @@ public class Occurence_of_element {
 	}
 
 }
+
+Input: 1,1, 2, 8, 3, 2, 2, 2, 5, 1
+Output: 1 occurs 3 times
+	2 occurs 4 times
+	3 occurs 1 times
+	5 occurs 1 times
+	8 occurs 1 times
+	2 is having max value 4
