@@ -24,3 +24,6 @@ public class Seperate_zeros_withArrayList {
 	}
 
 }
+
+Output: 000
+	11
