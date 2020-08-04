@@ -26,3 +26,4 @@ public class Shift_zero_left {
 	}
 
 }
+ Output: 0 0 1 1 1 1
