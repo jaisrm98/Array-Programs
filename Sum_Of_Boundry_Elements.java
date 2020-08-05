@@ -32,3 +32,10 @@ public class Sum_Of_Boundry_Elements {
 	}
 
 }
+
+Input:  3 3
+	2 2 2
+	2 2 2
+	2 2 2
+	
+Output: 16
