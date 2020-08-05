@@ -47,3 +47,15 @@ public class Sum_Of_Two_Matrix {
 		}
 	}
 }
+
+Input:  2
+	2
+	First matrix
+	2 2
+	2 2
+	Second matrix
+	2 2
+	2 2
+	
+Output: 4 4 
+        4 4
