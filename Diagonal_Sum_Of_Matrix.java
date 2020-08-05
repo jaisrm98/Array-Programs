@@ -22,3 +22,11 @@ System.out.println(sum);
 	}
 
 }
+
+Input:  4
+	1 1 1 1
+	1 1 1 1
+	1 1 1 1
+	1 1 1 1
+	
+Output: 8
