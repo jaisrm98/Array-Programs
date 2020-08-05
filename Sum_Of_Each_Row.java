@@ -38,3 +38,16 @@ for(int i=0;i<row;i++)
 	}
 
 }
+
+Input:  3
+	3
+	1 2 1
+	1 1 1
+	3 3 3
+	
+Output: 1 row sum= 4
+	2 row sum= 3
+	3 row sum= 9
+	1 col sum= 5
+	2 col sum= 6
+	3 col sum= 5
