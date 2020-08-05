@@ -24,3 +24,9 @@ public class Sum_Of_Corners {
 
 }
 
+Input:  2
+	3
+	1 1 1
+	1 1 1
+
+Output: 4
