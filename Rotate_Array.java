@@ -25,3 +25,6 @@ public class Rotate_Array {
 			  System.out.print(arr[i]+" ");
 	}
 }
+ 
+Input: 3
+Output: 4 5 1 2 3
