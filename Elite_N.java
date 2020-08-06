@@ -39,5 +39,8 @@ Input:  7
 	
 Output: day= 4 
 	
-	
-	
+	Explanation 
+	On the first day you defeat 1st, 2nd and 3rd opponent. As the remaining power would be 3,
+	you can't battle the 4th one. So you take rest. On the 2nd day, you defeat the 4th and the 5th opponent, then take rest.
+	On the 3rd day, you defeat the 6th enemy only. As you cannot let your pokemon faint, you will have to take rest. 
+	On the 4th day you defeat the last of the Elite N and become the champion! :D 
