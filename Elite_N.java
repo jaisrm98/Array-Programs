@@ -37,7 +37,7 @@ Input:  7
 	1 2 4 7 2 5 5
 	10
 	
-Output: day= 4
+Output: day= 4 
 	
 	
 	
