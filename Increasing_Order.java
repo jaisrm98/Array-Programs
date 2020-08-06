@@ -28,3 +28,13 @@ Scanner sc = new Scanner(System.in);
     
     }
 }
+
+Input:  5
+	5 4 3 1 2
+	
+Output: 14
+	
+	Explanation
+	
+	5 is greater than 4 so add 5 to sum..4 is greater than 3 so add to sum..3 is greater than 1 so add to sum..1 is smaller than 2 so leave it..always add last element to sum..
+	sum=5+4+3+2= 14
