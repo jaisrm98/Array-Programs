@@ -21,3 +21,6 @@ public class Decimal_to_Binary {
 	}
 
 }
+
+Input: 2
+Output: 10
