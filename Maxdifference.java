@@ -1,3 +1,5 @@
+//Given an array A of integers, find the maximum of j - i subjected to the constraint of A[i] <= A[j].
+
 package coding;
 import java.util.*;
 public class Maxdifference {
@@ -28,3 +30,7 @@ public class Maxdifference {
 	}
 
 }
+Input: 3 5 4 2
+Output: max distance 2
+
+//  Maximum value occurs for pair (3, 4).
