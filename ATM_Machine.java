@@ -25,3 +25,8 @@ public class ATM_Machine {
 	}
 
 }
+
+Input:2500
+Output:1 note of 2000
+       1 note of 500
+       Total notes 2
