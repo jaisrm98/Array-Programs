@@ -28,3 +28,7 @@ public class Max_distance_bt_repeated_element {
 	}
 
 }
+
+Input:  13
+	1 2 3 2 5 1 2 4 6 2 7 8 6
+Output: max distance 8
