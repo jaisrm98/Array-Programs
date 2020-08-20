@@ -15,9 +15,10 @@ public class Binary_search {
 		System.out.println("enter value  be searched");
 		k=sc.nextInt();
 		high=n-1;
-		mid=(low+high)/2;
+		
 		while(low<=high)
 		{
+			mid=(low+high)/2;
 			if(arr[mid]==k) {
 				System.out.println(k+" found at "+(mid+1)+" position");
 			break;
@@ -29,7 +30,7 @@ public class Binary_search {
 			else {
 				high=mid-1;
 			}
-			mid=(low+high)/2;	
+				
 		}
 	}
 
