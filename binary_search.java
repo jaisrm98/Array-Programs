@@ -35,3 +35,10 @@ public class Binary_search {
 	}
 
 }
+
+		Input:	enter n
+			4
+			1 2 3 4
+			enter value  be searched
+			3
+		Output:	3 found at 3 position
