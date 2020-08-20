@@ -4,7 +4,7 @@ public class Occurence_of_element {
 
 	public static void main(String[] args) {
 		 int [] arr = new int [] {1,1, 2, 8, 3, 2, 2, 2, 5, 1};  
-	     int fr[]=new int[arr.length];
+	     int occur[]=new int[arr.length];
 	   int  visited=-1;
 	   HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
 	     for(int i=0;i<arr.length;i++)
@@ -14,16 +14,16 @@ public class Occurence_of_element {
 	    		 if(arr[i]==arr[j])
 	    		 {
 	    			 c++;
-	    			 fr[j]=visited;
+	    			 occur[j]=visited;
 	    		 }
 	    	 }
-	    	 if(fr[i]!=visited)
-	    		 fr[i]=c;
+	    	 if(occur[i]!=visited)
+	    		 occur[i]=c;
 	     }
-	     for(int i=0;i<fr.length;i++)
+	     for(int i=0;i<occur.length;i++)
 	     { 
-	    	 if(fr[i]!=visited)
-	    		 map.put(arr[i], fr[i]);
+	    	 if(occur[i]!=visited)
+	    		 map.put(arr[i], occur[i]);
 	    // System.out.println(arr[i]+"occurs "+fr[i]);
 	     }
 	     for(Map.Entry k:map.entrySet())
