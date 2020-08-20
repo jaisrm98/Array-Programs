@@ -17,6 +17,7 @@ public class linear_search {
 			if(arr[i]==k) {
 				System.out.println(k+" is present at "+(i+1)+" position");
 				found=true;
+				break;
 			
 			}
 			
