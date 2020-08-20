@@ -10,7 +10,7 @@ public class Maxdifference {
 		{
 			for(int j=n-1;j>i;j--)
 			{
-				if(arr[j]>arr[i] && (j-i)>max)
+				if(arr[j]>=arr[i] && (j-i)>max)
 					max=(j-i);
 			}
 		}
@@ -33,4 +33,4 @@ public class Maxdifference {
 Input: 3 5 4 2
 Output: max distance 2
 
-//  Maximum value occurs for pair (3, 4).
+//  Maximum value occurs for pair (3, 4).  A[i] <= A[j]
