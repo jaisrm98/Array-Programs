@@ -26,7 +26,7 @@ public class dublicate_element_in_array {
 					
 			}
 		}
-		System.out.println("total dublicate= " +c);
+		System.out.println("\ntotal dublicate= " +c);
 		System.out.println("total dublicate elements= " +c*2);
 	}
 
@@ -34,5 +34,6 @@ public class dublicate_element_in_array {
 
 	Input:	5
 		1 1 2 2 3
-	Output:	1 2 total dublicate= 2
+	Output:	1 2
+		total dublicate= 2
 		total dublicate elements= 4         //1 1 2 2
