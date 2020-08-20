@@ -19,9 +19,9 @@ public class Remove_given_element_in_array {
 			list.add(s1);
 			
 		}
-		System.out.println("enter value to ve removed");
-		int r=sc.nextInt();
-		list.remove(r);
+		System.out.println("enter indexvalue to ve removed");
+		int index=sc.nextInt();
+		list.remove(index);
 		for(Remove_given_element_in_array z:list)
 			System.out.print(z.a+" ");
 		
