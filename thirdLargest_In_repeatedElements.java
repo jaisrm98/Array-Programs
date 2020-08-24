@@ -37,3 +37,4 @@ public class thirdLargest_In_repeatedElements {
 	}
 
 }
+output: 1
