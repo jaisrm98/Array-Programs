@@ -28,3 +28,8 @@ public class Parentheses_Validation {
 	}
 
 }
+
+Input: [(])
+Output:false
+Input: ([])
+Output: true
