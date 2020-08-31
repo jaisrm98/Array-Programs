@@ -29,3 +29,7 @@ public class Return_index_where_Element_tobe_Inserted {
 		System.out.println(searchInsert(nums,target));
 	}
 }
+
+Input: 1,3,5,6
+value:	2
+Output: 2
