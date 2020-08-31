@@ -21,4 +21,6 @@ public class Remove_given_elemnt_from_Array {
 		}
 	}
 
+Input: 1 2 3 4 
+ Output: length of new array 4
 
