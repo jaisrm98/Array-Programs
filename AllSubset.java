@@ -15,10 +15,12 @@ class AllSubset
   
            
             for (int j = 0; j < n; j++) 
+            {
   
                 
                 if ((i & (1 << j)) > 0) 
                     System.out.print(set[j] + " "); 
+            }
   
             System.out.println("}"); 
         } 
