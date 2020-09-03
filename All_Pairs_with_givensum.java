@@ -8,7 +8,7 @@ public class All_Pairs_with_givensum {
 			int target=9;
 			int A[]={6,7,2,3};
 		
-			for(int i = 0; i < A.length - 1; i++)
+			for(int i = 0; i < A.length; i++)
 	        {
 	            for(int j = i + 1; j < A.length; j++)
 	            {
@@ -23,3 +23,6 @@ public class All_Pairs_with_givensum {
 	}
 	}
 }
+
+Output: (6, 3)
+        (7, 2)
