@@ -22,3 +22,4 @@ public class K_largest_element_IN_Array {
 	    } 
  }
 
+Output: 50 30 23 
