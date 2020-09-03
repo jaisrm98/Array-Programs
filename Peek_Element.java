@@ -19,3 +19,5 @@ public class Peek_Element {
 	}
 
 }
+
+Output: Peek element index is 2
