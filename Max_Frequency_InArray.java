@@ -39,3 +39,8 @@ public class Max_Frequency_InArray {
 	}
 
 }
+
+Output: Key = 1, frequency = 2
+	Key = 2, frequency = 1
+	Key = 3, frequency = 3
+	3 is having max value 3
