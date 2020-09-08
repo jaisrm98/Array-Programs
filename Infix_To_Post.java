@@ -38,7 +38,7 @@ public class Infix_To_Post {
 					stk.pop();
 
 			} else {
-				while (!stk.empty() && prec(c) <= prec(stk.peek())) {
+				while (!stk.isEmpty() && prec(c) <= prec(stk.peek())) {
 					if (!stk.isEmpty() && stk.peek() == '(') {
 						return "invalid";
 					}
