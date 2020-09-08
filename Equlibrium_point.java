@@ -33,3 +33,5 @@ public class Equlibrium_point {
 	}
 
 }
+Output: equlibrium point is 
+	2
