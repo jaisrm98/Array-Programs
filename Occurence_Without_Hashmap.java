@@ -38,3 +38,9 @@ public class Occurence_Without_Hashmap {
 	}
 
 }
+
+Output: 1 2
+	2 2
+	4 3
+	5 1
+	4 is haivng  max frequency 3
