@@ -29,3 +29,5 @@ public class Remove_dublicate_without_hashmap {
 
 	}
 }
+
+Output: 1 2 4 5 
