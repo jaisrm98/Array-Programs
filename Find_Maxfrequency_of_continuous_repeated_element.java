@@ -23,3 +23,5 @@ public class Find_Maxfrequency_of_continuous_repeated_element {
 	}
 
 }
+
+Output: 3                       // 1 1 1
