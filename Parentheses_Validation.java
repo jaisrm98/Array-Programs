@@ -16,6 +16,7 @@ public class Parentheses_Validation {
 					stk.pop();
 				else if(c=='}' && !stk.isEmpty() && stk.peek()=='{')
 					stk.pop();
+			else return false;
 			return stk.isEmpty();
 			
 		}
