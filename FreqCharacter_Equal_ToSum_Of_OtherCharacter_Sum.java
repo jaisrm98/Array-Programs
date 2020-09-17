@@ -46,3 +46,5 @@ public static boolean fre(String s)
 	
 	}
 }
+
+Ouput: NO
