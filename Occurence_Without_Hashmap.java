@@ -15,11 +15,12 @@ public class Occurence_Without_Hashmap {
 					arr[j] = vis;
 					c++;
 				}
+			}
 				if (arr[i] != vis) {
 					fr[i] = c;
 				}
 
-			}
+			
 		}
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] != vis)
