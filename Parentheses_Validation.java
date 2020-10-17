@@ -8,6 +8,7 @@ public class Parentheses_Validation {
 				return false;
 			Stack<Character>stk=new Stack<Character>();
 			for(char c:s.toCharArray())
+			{
 				if(c=='('||c=='['||c=='{')
 					stk.push(c);
 				else if(c==')' && !stk.isEmpty() && stk.peek()=='(')
@@ -17,6 +18,7 @@ public class Parentheses_Validation {
 				else if(c=='}' && !stk.isEmpty() && stk.peek()=='{')
 					stk.pop();
 			else return false;
+			}
 			return stk.isEmpty();
 			
 		}
