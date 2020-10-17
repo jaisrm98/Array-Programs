@@ -18,3 +18,5 @@ public class Comman_elements_in_Twoarrays {
 	}
 
 }
+
+Output: 2
