@@ -28,3 +28,7 @@ public class Menu_CCD {
 	}
 
 }
+
+Input:  c
+	2
+Output: cappuccino coffee
