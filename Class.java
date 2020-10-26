@@ -44,3 +44,10 @@ public class Class {
 	}
 
 }
+
+Input:  sy01
+	sy02
+	ty01
+	ty02
+Output: [ty01][sy01]
+	[ty02][sy02]
