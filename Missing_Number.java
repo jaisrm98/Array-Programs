@@ -33,3 +33,5 @@ public class Missing_Number {
 	}
 
 }
+
+Output: 1
