@@ -26,3 +26,6 @@ public class Three_Number_sum_equaToZero {
 	}
 
 }
+
+Output: -4 -5 9
+	-5 9 -4
