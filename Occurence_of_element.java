@@ -14,15 +14,15 @@ public class Occurence_of_element {
 	    		 if(arr[i]==arr[j])
 	    		 {
 	    			 c++;
-	    			 occur[j]=visited;
+	    			 arr[j]=visited;
 	    		 }
 	    	 }
-	    	 if(occur[i]!=visited)
+	    	 if(arr[i]!=visited)
 	    		 occur[i]=c;
 	     }
 	     for(int i=0;i<occur.length;i++)
 	     { 
-	    	 if(occur[i]!=visited)
+	    	 if(arr[i]!=visited)
 	    		 map.put(arr[i], occur[i]);
 	    // System.out.println(arr[i]+"occurs "+fr[i]);
 	     }
