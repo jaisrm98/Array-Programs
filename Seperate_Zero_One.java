@@ -27,3 +27,6 @@ public class Seperate_Zero_One {
 	}
 
 }
+
+Output: 0 0 
+	1 1 1 
