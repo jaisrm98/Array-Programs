@@ -28,3 +28,6 @@ public class Insert_Element_At_Correct_Place {
 	}
 
 }
+Input: 1 3 5 6
+	target=2;
+Output: 1
