@@ -28,3 +28,5 @@ public class PlusOne_lastDigit {
 	}
 
 }
+
+output: 2 0 0 
