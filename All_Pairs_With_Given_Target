@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class All_Pairs_with_Given_Target {
+	public static void main(String[] args) {
+		int sum = 9;
+		int arr[] = { 6, 7, 2, 3 };
+		int low = 0;
+		int high = arr.length - 1;
+
+		while (low < high) {
+			if (arr[low] + arr[high] == sum) {
+				System.out.println("(" + arr[low] + " " + arr[high] + ")");
+			}
+			if (arr[low] + arr[high] > sum) {
+				high--;
+			} else {
+				low++;
+			}
+
+		}
+	}
+
+}
+
+Output: (6 3)
+        (7 2)
