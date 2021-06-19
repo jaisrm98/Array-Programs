@@ -1,0 +1,23 @@
+package Practice;
+import java.util.*;
+public class Merge_Arrays {
+
+	public static void main(String[] args) {
+		int arr1[]= {1,2};
+		int arr2[]= {3,4};
+		int c=0;
+	int arr3[]=new int[arr1.length+arr2.length];
+	for(int i:arr1)
+		arr3[c++]=i;
+	
+	for(int i:arr2)
+		arr3[c++]=i;
+	
+	for(int i:arr3)
+		System.out.print(i+" ");
+	
+}
+
+}
+
+Output: 1 2 3 4
