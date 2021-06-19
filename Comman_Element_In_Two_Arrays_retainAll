@@ -1,0 +1,28 @@
+package Practice;
+
+import java.util.*;
+
+public class Max_elements_in_two_arrays {
+
+	public static void main(String[] args) {
+	Integer arr1[]= {1,2,3,4,4};
+	Integer arr2[]= {1,2,6,7,4};
+	HashSet<Integer>list1=new HashSet<Integer>();
+	HashSet<Integer>list2=new HashSet<Integer>();
+	for(int i:arr1)
+		list1.add(i);
+		
+	for(int i:arr2)
+		list2.add(i);
+	
+	list1.retainAll(list2);
+	for(int i:list1)
+	System.out.print(i+" ");
+
+	}
+
+}
+
+
+
+Output: 1 2 4
