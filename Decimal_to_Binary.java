@@ -16,7 +16,7 @@ public class Decimal_to_Binary {
 		}
 		for( i=i-1;i>=0;i--)
 		{
-			System.out.print(arr[i]+" ");
+			System.out.print(arr[i]);
 		}
 	}
 
