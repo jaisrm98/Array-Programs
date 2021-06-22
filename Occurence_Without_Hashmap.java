@@ -1,47 +1,49 @@
 package coding;
-import java.util.*;
 
-public class Occurence_Without_Hashmap {
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Max_Freq_Of_Element {
 
 	public static void main(String[] args) {
-		int k=0;
-		int arr[] = { 1, 2, 4, 2, 1, 5, 4, 4 };
-		int fr[] = new int[arr.length];
-		int vis = -1; int max=arr[0];
-		for (int i = 0; i < arr.length; i++) {
-			int c = 1;
-			for (int j = i + 1; j < arr.length; j++) {
-				if (arr[i] == arr[j]) {
-					arr[j] = vis;
+		int arr[]= {1,2,1,1,4,4,4,4,3};
+		int n=arr.length;
+		int freq[]=new int[n];
+		for(int i=0;i<n;i++)
+		{   
+			int c=1;
+			for(int j=i+1;j<n;j++)
+			{
+				if(arr[i]==arr[j])
+				{
+					arr[j]=-1;
 					c++;
 				}
 			}
-				if (arr[i] != vis) {
-					fr[i] = c;
-				}
-
+			if(arr[i]!=-1)
+				freq[i]=c;
+						
+		}
+		for(int i=0;i<n;i++)
+			if(arr[i]!=-1)
+			System.out.println(arr[i]+" occurs "+freq[i]+" times");
+		int max=freq[0];
+		int k=0;
+		for(int i=0;i<freq.length;i++)
+		{
+			if(freq[i]>max) {
+				max=freq[i];
+			k=arr[i];}
+		}
+			System.out.println(k+" have max frequency "+max);
 			
-		}
-		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] != vis)
-				System.out.println(arr[i] + " " + fr[i]);
-		}
-		for (int i = 0; i < arr.length; i++)
-		{ 
-			if(fr[i]>max) {
-				
-				max=fr[i];
-				k=arr[i];
-				}
-			
-		}
-		System.out.println(k+ " is haivng  max frequency "+max);
 	}
 
 }
 
-Output: 1 2
-	2 2
-	4 3
-	5 1
-	4 is haivng  max frequency 3
+
+Output: 1 occurs 3 times
+	2 occurs 1 times
+	4 occurs 4 times
+	3 occurs 1 times
+	4 have max frequency 4
