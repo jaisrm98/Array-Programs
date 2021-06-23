@@ -1,0 +1,23 @@
+package Practice;
+import java.util.*;
+public class Remove_given_elemnt_from_Array {
+
+	public static void main(String[] args) {
+		int arr[]= {1,2,5,3,5,4};
+		int val=5;
+		
+		ArrayList<Integer>list=new ArrayList<Integer>();
+		for(int i:arr)
+		{
+			if(i!=val)
+				list.add(i);
+		}
+		
+		for(int i:list)
+			System.out.print(i+" ");
+
+	}
+
+}
+
+Output: 1 2 3 4 
