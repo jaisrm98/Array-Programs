@@ -1,30 +1,24 @@
-package coding;
+package Practice;
 import java.util.*;
 public class Rotate_Array {
 
 	public static void main(String[] args) {
-		int arr[]= {1,2,3,4,5};
-		//String str="a b c d e";        //for string rotation
-		 // String [] arr = str.split(" ");
-		  
-		  int n=3;
-		  int j; 
-		  int first;
-		  for(int i=0;i<n;i++)
-		  {
-			  
-		  first=arr[0];
-		  for(j=0;j<arr.length-1;j++)
-		  {
-			  arr[j]=arr[j+1];
-		  }
-		  arr[j]=first;
-		  }
-		  System.out.println("left rotation");
-		  for(int i=0;i<arr.length;i++)
-			  System.out.print(arr[i]+" ");
+		int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
+		int n=2;
+		ArrayList<Integer>list=new ArrayList<Integer>();
+		for(int i=n;i<arr.length;i++)
+		{
+			list.add(arr[i]);
+		}
+		for(int i=0;i<n;i++)
+		{
+			list.add(arr[i]);
+		}
+		
+		for(int i:list)
+		System.out.print(i+" ");
 	}
+
 }
- 
-Input: 3
-Output: 4 5 1 2 3
+
+Output: 3 4 5 6 7 1 2 
