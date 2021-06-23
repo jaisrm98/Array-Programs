@@ -1,26 +1,26 @@
-package coding;
+package Practice;
+import java.util.*;
+import java.util.ArrayList;
 
-public class Rotate_array_K_steps {
+public class Rotate_k_Times {
 
 	public static void main(String[] args) {
+		int arr[] = {1,2,3,4,5,6,7};
+		int n=3;
+		ArrayList<Integer>list=new ArrayList<Integer>();
+		
+		for(int i=arr.length-n;i<arr.length;i++)
+			list.add(arr[i]);
+		
+		for(int i=0;i<arr.length-n;i++)
+			list.add(arr[i]);
+		
+		for(int i:list)
+			System.out.print(i+" ");
 
-		int []arr = {1,2,3,4,5,6,7};                       // reverse from last three element 5,6,7
-		int k=3;
-		  int j=0;
-	        
-          for(int i=1;i<=k;i++)
-     {
-         int first=arr[arr.length-1];
-         for( j=arr.length-1;j>0;j--)
-         {
-             arr[j]=arr[j-1];
-         }
-         arr[j]=first;
-     }
-	       for(int i=0;i<arr.length;i++)
-	        	System.out.print(arr[i]+" ");
 	}
 
 }
 
-Output: 5 6 7 1 2 3 4 
+
+Output: 5 6 7 1 2 3 4
