@@ -5,8 +5,8 @@ import java.util.*;
 public class Max_elements_in_two_arrays {
 
 	public static void main(String[] args) {
-	Integer arr1[]= {1,2,3,4};
-	Integer arr2[]= {1,2,6,7,4};
+	int arr1[]= {1,2,3,4};
+	int arr2[]= {1,2,6,7,4};
 	ArrayList<Integer>list=new ArrayList<Integer>();
 	for(int i:arr2)
 		list.add(i);
