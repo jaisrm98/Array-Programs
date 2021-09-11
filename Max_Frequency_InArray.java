@@ -1,21 +1,15 @@
-package coding;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
-public class Max_Frequency_InArray {
-
-	public static void main(String[] args) {
-		int arr[]= {1,1,2,3,3,3};
+import java.util.*;
+public class MyClass {
+    public static void main(String args[]) {
+      int arr[]= {1,1,2,3,3,3};
 		HashMap<Integer, Integer>count=new HashMap<Integer,Integer>();
-		ArrayList<Integer>list=new ArrayList<Integer>();
+	
 		
 		for(int i=0;i<arr.length;i++)
 		{
-			if(!list.contains(arr[i]))
+			if(!count.containsKey(arr[i]))
 			{
-				list.add(arr[i]);
+			
 				count.put(arr[i], 1);
 			}
 			else
@@ -36,11 +30,5 @@ public class Max_Frequency_InArray {
 		}
 	}
 		System.out.println(key+" is having max value "+ max);
-	}
-
+    }
 }
-
-Output: Key = 1, frequency = 2
-	Key = 2, frequency = 1
-	Key = 3, frequency = 3
-	3 is having max value 3
