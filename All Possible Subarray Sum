@@ -3,52 +3,52 @@ import java.util.*;
 public class String_a {
 
 	public static void main(String[] args) {
-		int A[] = { 2,9,5 };
-		
-		int n=A.length;
-		int sum=0;
-		int total=0;
-		for(int i=0;i<n;i++)
-		{sum=0;
-			for(int j=i;j<n;j++)
-			{ 
-				
-				for(int k=i;k<=j;k++)
-				{
-					System.out.print(A[k]+" ");
-					sum+=A[k];
-					
+		int A[] = { 1, 2, 3 };
+
+		int n = A.length;
+		int sum = 0;
+		int total = 0;
+		for (int i = 0; i < n; i++) {
+			sum = 0;
+			for (int j = i; j < n; j++) {
+				sum = 0;
+				for (int k = i; k <= j; k++) {
+					System.out.print(A[k] + " ");
+					sum += A[k];
+
 				}
-				
 				System.out.println();
-				
+				System.out.println("Sum of  subarray " + sum);
+				System.out.println();
+				total = total + sum;
+
 			}
-			 total=total+sum;
-			 System.out.println();
-			System.out.println("Sum of subarray "+sum);
-			System.out.println();
-			
+
 		}
-		System.out.println("Total sum of possible subarray "+total);
-		
+		System.out.println("Total sum of possible subarray " + total);
+
 	}
 
 }
 
 Output: 
+
+1 
+Sum of  subarray 1
+
+1 2 
+Sum of  subarray 3
+
+1 2 3 
+Sum of  subarray 6
+
 2 
-2 9 
-2 9 5 
+Sum of  subarray 2
 
-Sum of subarray 29
+2 3 
+Sum of  subarray 5
 
-9 
-9 5 
+3 
+Sum of  subarray 3
 
-Sum of subarray 23
-
-5 
-
-Sum of subarray 5
-
-Total sum of possible subarray 57
+Total sum of possible subarray 20
