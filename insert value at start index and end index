@@ -1,0 +1,65 @@
+package coding;
+
+import java.util.Scanner;
+
+public class Insert_Value_At_start_and_end_Index {
+public static void main(String[] args) {
+	
+		
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter size of array");
+		int n=sc.nextInt();
+		int arr[]=new int[n];
+		int s,e,value;
+		System.out.println("Enter query number");
+		int q=sc.nextInt();
+		while(q!=0)
+		{
+			s=sc.nextInt();
+			e=sc.nextInt();
+			value=sc.nextInt();
+			arr[s]=arr[s]+value;
+			if(e==n-1)
+				arr[e]=arr[e];
+			else
+			arr[e+1]=arr[e+1]-value;
+			q--;
+		}
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			if(i==0)
+			{
+				arr[i]=arr[0];
+			}
+			else
+			arr[i]=arr[i-1]+arr[i];
+		}
+		System.out.println();
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+		
+	}
+
+}
+
+Input:
+Enter size of array
+5
+Enter query number
+3
+1 2 10
+2 3 20
+2 5 25
+
+Output:
+10 45 -10 -20 0 
+10 55 45 25 25 
