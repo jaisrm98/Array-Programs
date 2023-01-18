@@ -22,5 +22,5 @@ public class All_Pairs_with_Given_Target {
 
 }
 
-Output: (6 3)
-        (7 2)
+Output: (2 7)
+	(3 6)
